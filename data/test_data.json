@@ -1,0 +1,36 @@
+{
+    "valid_users": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": 30
+        },
+        {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "age": 25
+        },
+        {
+            "name": "Bob Johnson",
+            "email": "bob.johnson@example.com",
+            "age": 35
+        }
+    ],
+    "invalid_users": [
+        {
+            "name": "",
+            "email": "john.doe@example.com",
+            "age": 30
+        },
+        {
+            "name": "Test User",
+            "email": "invalid-email",
+            "age": 25
+        },
+        {
+            "name": "Test User",
+            "email": "test@example.com",
+            "age": -5
+        }
+    ]
+}
