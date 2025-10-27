@@ -1,6 +1,6 @@
 # API Testing Framework
 
-A comprehensive APB�ing framework built with FastAPI and PyTest. This project includes a simple User Management API and a robust test automation suite.
+A comprehensive APB´ing framework built with FastAPI and PyTest. This project includes a simple User Management API and a robust test automation suite.
 
 ## Features
 
@@ -16,7 +16,7 @@ A comprehensive APB�ing framework built with FastAPI and PyTest. This project in
 ```
 api-testing-framework/
 ├── app/
-│   └── __init__.py
+│   ├── __init__.py
 │   └── main.py
 ├── core/
 │   ├── __init__.py
@@ -45,6 +45,7 @@ api-testing-framework/
 ├── .env.example
 ├── README.md
 └── flow_diagram.png
+
 ```
 
 ## Getting Started
@@ -109,7 +110,7 @@ docker-compose up tests
 ## Test Features
 
 - **Smoke Tests**: Basic API functionality
-�API validation
+â”API validation
 - **Negative Testing**: Error handling
 - **Data Driven**: JSON based test data
 - **Reporting**: HTML test reports
